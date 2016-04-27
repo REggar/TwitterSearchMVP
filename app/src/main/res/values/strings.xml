@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Twitter Search MVP</string>
+
+    <string name="tweet_fetching_error">Sorry! There was an error searching for tweets.</string>
+</resources>

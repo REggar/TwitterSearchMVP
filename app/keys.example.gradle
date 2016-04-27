@@ -1,0 +1,8 @@
+android {
+    defaultConfig {
+        buildConfigField 'String', 'CONSUMER_KEY', '"KEY_HERE"'
+        buildConfigField 'String', 'CONSUMER_SECRET', '"SECRET_HERE"'
+        buildConfigField 'String', 'TOKEN', '"TOKEN_HERE"'
+        buildConfigField 'String', 'TOKEN_SECRET', '"TOKEN_SECRET_HERE"'
+    }
+}
