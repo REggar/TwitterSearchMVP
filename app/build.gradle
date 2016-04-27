@@ -4,7 +4,7 @@ apply plugin: 'android-apt'
 if (project.file('keys.gradle').exists()) {
     apply from: 'keys.gradle'
 } else {
-    logger.warn('Please create a keys.gradle file. For more information please see README.md')
+    logger.info('Please create a keys.gradle file. For more information please see README.md')
     apply from: 'keys.example.gradle'
 }
 
