@@ -1,7 +1,7 @@
 # Twitter Search MVP
 [![Build Status](https://travis-ci.org/REggar/TwitterSearchMVP.svg?branch=master)](https://travis-ci.org/REggar/TwitterSearchMVP)
 
-Twitter Search MVP is a simple Android application for searching Twitter. Simple enter in your desired hashtag and the Twitter REST API will be queries and results will be displayed.
+Twitter Search MVP is a simple Android application for searching Twitter. Simply enter your desired hashtag and the Twitter REST API will be queried and the results will be displayed.
 
 This was created as a test of MVP, OAuth and Twitter RESTful API. This application uses application-only authentication where the application itself is authenticated against Twitter as opposed to individual users.
 
