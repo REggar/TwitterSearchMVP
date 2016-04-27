@@ -1,8 +1,13 @@
 language: android
+jdk: oraclejdk7
+
 android:
   components:
-    # The BuildTools version used by your project
+    - extra-android-m2repository
     - build-tools-23.0.2
-
-    # The SDK version used to compile your project
     - android-23
+  licenses:
+    - android-sdk-license-.+
+
+script:
+    - ./gradlew clean test
