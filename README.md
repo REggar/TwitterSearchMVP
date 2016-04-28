@@ -1,5 +1,5 @@
-# Twitter Search MVP
-[![Build Status](https://travis-ci.org/REggar/TwitterSearchMVP.svg?branch=master)](https://travis-ci.org/REggar/TwitterSearchMVP)
+# Twitter Search MVP [![Build Status](https://travis-ci.org/REggar/TwitterSearchMVP.svg?branch=master)](https://travis-ci.org/REggar/TwitterSearchMVP)
+
 
 Twitter Search MVP is a simple Android application for searching Twitter. Simply enter your desired hashtag and the Twitter REST API will be queried and the results will be displayed.
 
@@ -28,3 +28,20 @@ This was created as a test of MVP, OAuth and Twitter RESTful API. This applicati
 
 ## Tested on
 HTC One M8 Android 5.0.1, Virtual Nexus 5X Android 6.0.0, and Virtual Neus One Android 4.1
+
+## License
+```
+Copyright 2016 Robert Eggar.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
