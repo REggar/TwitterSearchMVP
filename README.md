@@ -24,3 +24,7 @@ This was created as a test of MVP, OAuth and Twitter RESTful API. This applicati
 
 ## Limitations
 * Twitter Search MVP targets Android 4.0.3+ (API 15) as this is a good trade-off between device support while still allowing the latest SDK features.
+* No offline caching
+
+## Tested on
+HTC One M8 Android 5.0.1, Virtual Nexus 5X Android 6.0.0, and Virtual Neus One Android 4.1
