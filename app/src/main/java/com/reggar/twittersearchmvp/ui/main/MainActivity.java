@@ -1,8 +1,8 @@
 package com.reggar.twittersearchmvp.ui.main;
 
 import android.app.Activity;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import com.reggar.twittersearchmvp.R;
 import com.reggar.twittersearchmvp.ReggarApplication;
-import com.reggar.twittersearchmvp.ui.utils.SimpleDividerItemDecoration;
-import com.reggar.twittersearchmvp.ui.main.adapters.TweetAdapter;
 import com.reggar.twittersearchmvp.models.Tweet;
+import com.reggar.twittersearchmvp.ui.main.adapters.TweetAdapter;
+import com.reggar.twittersearchmvp.ui.utils.SimpleDividerItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;

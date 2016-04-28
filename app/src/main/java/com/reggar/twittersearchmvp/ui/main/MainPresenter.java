@@ -16,8 +16,6 @@ import javax.inject.Named;
 import nucleus.presenter.RxPresenter;
 import rx.Observable;
 import rx.Scheduler;
-import rx.Subscription;
-import rx.functions.Action1;
 import rx.functions.Action2;
 import rx.functions.Func0;
 

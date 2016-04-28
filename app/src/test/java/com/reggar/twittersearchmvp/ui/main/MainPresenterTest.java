@@ -1,20 +1,15 @@
 package com.reggar.twittersearchmvp.ui.main;
 
-import android.os.Bundle;
-
-import com.pcl.vlad.TestReggarApplication;
-import com.pcl.vlad.di.MockApplicationModule;
-import com.pcl.vlad.utils.MockData;
 import com.reggar.twittersearchmvp.BuildConfig;
+import com.reggar.twittersearchmvp.TestReggarApplication;
+import com.reggar.twittersearchmvp.di.MockApplicationModule;
 import com.reggar.twittersearchmvp.models.Tweet;
 import com.reggar.twittersearchmvp.sync.twitter.TwitterClient;
+import com.reggar.twittersearchmvp.utils.MockData;
 
-import org.apache.tools.ant.Main;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.annotation.Config;

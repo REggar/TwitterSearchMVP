@@ -1,9 +1,9 @@
 package com.reggar.twittersearchmvp.ui.main.adapters;
 
-import com.pcl.vlad.TestReggarApplication;
-import com.pcl.vlad.utils.MockData;
 import com.reggar.twittersearchmvp.BuildConfig;
+import com.reggar.twittersearchmvp.TestReggarApplication;
 import com.reggar.twittersearchmvp.models.Tweet;
+import com.reggar.twittersearchmvp.utils.MockData;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -12,10 +12,10 @@ import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.annotation.Config;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 @RunWith(RobolectricGradleTestRunner.class)
 @Config(sdk = 21,

@@ -1,20 +1,11 @@
-package com.pcl.vlad.di;
+package com.reggar.twittersearchmvp.di;
 
 import android.app.Application;
-import android.content.SharedPreferences;
 
-import com.reggar.twittersearchmvp.di.ApplicationModule;
 import com.reggar.twittersearchmvp.sync.twitter.TwitterClient;
-import com.reggar.twittersearchmvp.utils.Constants;
-
-import javax.inject.Named;
-import javax.inject.Singleton;
 
 import dagger.Module;
-import dagger.Provides;
 import rx.Scheduler;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
 
 @Module
 public class MockApplicationModule extends ApplicationModule {

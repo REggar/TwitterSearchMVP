@@ -1,6 +1,5 @@
-package com.pcl.vlad;
+package com.reggar.twittersearchmvp;
 
-import com.reggar.twittersearchmvp.ReggarApplication;
 import com.reggar.twittersearchmvp.di.ApplicationModule;
 
 public class TestReggarApplication extends ReggarApplication {

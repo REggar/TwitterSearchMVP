@@ -1,8 +1,6 @@
 package com.reggar.twittersearchmvp.di;
 
 import android.app.Application;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
 import com.reggar.twittersearchmvp.sync.twitter.TwitterClient;
 import com.reggar.twittersearchmvp.sync.twitter.TwitterRestClientImpl;

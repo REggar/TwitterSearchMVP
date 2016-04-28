@@ -1,4 +1,4 @@
-package com.pcl.vlad.utils;
+package com.reggar.twittersearchmvp.utils;
 
 import java.io.IOException;
 

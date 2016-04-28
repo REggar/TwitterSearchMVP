@@ -1,7 +1,7 @@
 package com.reggar.twittersearchmvp.di;
 
-import com.reggar.twittersearchmvp.ui.main.MainActivity;
 import com.reggar.twittersearchmvp.ReggarApplication;
+import com.reggar.twittersearchmvp.ui.main.MainActivity;
 import com.reggar.twittersearchmvp.ui.main.MainPresenter;
 
 import javax.inject.Singleton;
